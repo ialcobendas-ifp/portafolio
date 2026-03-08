@@ -124,5 +124,10 @@ h2 {
 .circulo1:hover, .circulo2:hover, .circulo3:hover, .circulo4:hover, .circulo5:hover, .circulo6:hover, .circulo7:hover, .circulo8:hover, .circulo9:hover, .circulo10:hover, .circulo11:hover, .circulo12:hover, .circulo13:hover, .circulo14:hover, .circulo15:hover{
     opacity: 1;
 }
+@media (max-width: 800px) {
+    .contenedor{
+        grid-template-columns: 1fr;
+    }
+}
 
 
