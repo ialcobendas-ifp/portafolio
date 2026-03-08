@@ -52,8 +52,8 @@ a:hover{
 }
 
 .logo {
-    height: 5rem;
-    width:5rem;
+    height: 3rem;
+    width:3rem;
     margin-left: 20px;
     flex-shrink: 0;
 }
