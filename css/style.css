@@ -41,17 +41,22 @@ a:hover{
 
 
 
-.xarxes {
+.xarxes{
     height: 5rem;
     width:100%;
     background: #A4AC86;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
       
 }
 
 .logo {
     height: 5rem;
     width:5rem;
-    position: fixed;
+    position: relative;
     margin-left: 20px;
 }
 
@@ -64,23 +69,18 @@ a:hover{
 
 
 li {
-    color: black;
-    float: left;
+  color: black;
     margin: 30px;
-    margin-top: 30px;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .informacio{
-    float:left;
-   
-    padding-left: 0;
+    display: flex;
     margin-left:150px;
 }
 
-
-.contacto {
-    float: right;
+.contacto{
+    display: flex;
 }
 
 
