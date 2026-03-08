@@ -56,7 +56,7 @@ a:hover{
 .logo {
     height: 5rem;
     width:5rem;
-    position: relative;
+    position: fixec;
     margin-left: 20px;
 }
 
