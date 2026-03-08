@@ -34,3 +34,9 @@ body{
     float: left;
     margin: 20px;
 }
+
+@media (max-width: 800px) {
+    .contenedor{
+        grid-template-columns: 1fr;
+    }
+}
