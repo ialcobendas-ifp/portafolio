@@ -1,0 +1,111 @@
+#cub {
+    width:80px;
+    height:80px;
+    transition:1s;
+    position:relative; 
+    transform-style: preserve-3d;
+    
+
+}
+
+.cara {
+    width:80px;
+    height:80px;
+    font-size: 80px;
+    text-align: center;
+    line-height:80px;
+    margin: auto; 
+    position: absolute;
+    top:0; left:0;
+}
+
+.blava {
+    background: skyblue;
+    transform-origin: left;
+    transform: translateZ(-80px);
+}
+
+.groga {
+    background: yellow;
+    transform-origin:bottom;
+    transform: rotateX(90deg);
+
+
+}
+
+.vermella {
+    background: red;
+    transform-origin:left;
+    transform: rotateY(90deg);
+}
+
+
+.rosa {
+    background:pink;
+    transform-origin:right;
+    transform:rotateY(-90deg);  
+}
+
+.lila {
+    background: violet;
+    transform-origin:top;
+    transform: rotateX(-90deg);
+
+}
+
+.verda {
+    background: greenyellow;
+    transform: rotateX(0deg); 
+}
+
+.contenidor {
+    margin: 10rem auto;
+    width:80px;
+    height:80px;
+    perspective:160px;
+}
+
+/*
+#cub:hoer {
+    transform: rotateZ(180deg) rotateY(90deg);
+}
+*/
+.joystick{
+    position: relative;
+    background: ;
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+}
+
+.boto{
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    background: pink;
+
+}
+
+#amunt{
+    top: 0;
+    left: 7rem;
+    background: blue;
+}
+
+#avall{
+    top: 14rem;
+    left: 7rem;
+    background: blue;
+}
+
+#esquerra{
+    top: 7rem;
+    left: 0rem;
+    background: blue;
+}
+
+#dreta{
+    top: 7rem;
+    left: 14rem;
+    background: blue;
+}

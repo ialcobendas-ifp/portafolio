@@ -1,0 +1,124 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    /*aqui hi van les variables*/
+}
+
+body{
+    background: #B6AD90;
+    margin: 0;
+}
+
+.cap {
+    background: #582F0E;
+    width: 100%;
+    height: 45px;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family:century-gothic;
+    color: #582F0E;  
+}
+
+.titulo{
+    width: 100%;
+    height: 300px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: auto;
+}
+
+.circulo1, .circulo2, .circulo3, .circulo4 {
+    width: 500px;
+    height: 500px;
+    border-radius: 15%;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    
+    
+    transition: background 0.5s ease;
+    background-size: cover;
+    background-position: center;
+
+    
+    color: black;
+    font-family: century-gothic;
+    font-size:30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.circulo1:hover{
+    background-color: transparent;
+    background-image: url(../imagenes/dracula-mock-up.jpg);
+    color: transparent
+}
+
+.circulo2:hover{
+    background-color: transparent;
+    background-image: url(../imagenes/bbykorea-mockup.jpg);
+    color: transparent;
+
+}
+
+.circulo3:hover{
+    background-color: transparent;
+    background-image: url(../imagenes/mock-up-got.jpg);
+    color: transparent;
+
+}
+
+.circulo4:hover{
+    background-color: transparent;
+    background-image: url(../imagenes/zanka-mock-up.jpg);
+    color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
